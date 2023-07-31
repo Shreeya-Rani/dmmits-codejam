@@ -1,0 +1,126 @@
+/* General */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #f2f2f2;
+  transition: all 1s ease-in-out;
+}
+
+body {
+  background-color: #0f0f0f;
+}
+hr {
+  width: 20px;
+  height: 4px;
+}
+
+section > h1 {
+  text-align: center;
+  margin: 40px;
+  font-size: 36px;
+  color: #f2f2f2;
+}
+
+button {
+  border-radius: 20px;
+  height: 40px;
+  width: 120px;
+}
+
+/* Main */
+main {
+  height: 100vh;
+  background-image: url("https://media.istockphoto.com/id/1426691421/photo/sls-space-rocket-in-sky-with-clouds-mission-to-moon-spaceship-launch-from-earth-orion.jpg?b=1&s=170667a&w=0&k=20&c=tR4wVBRKfUaMtJ9sjgYhOvcw3IdG6ih4qbuBwIKLzlM="); /* add url*/
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.575);
+  padding-inline: 10vw;
+  padding-block: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  color: white;
+}
+
+.text > h1 {
+  padding-block: 30px;
+  font-weight: 400;
+}
+
+.text > p {
+  padding-block: 30px;
+  line-height: 24px;
+  font-size: 18px;
+}
+.buttons {
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+  padding-block: 30px;
+}
+
+.btn {
+  background: transparent;
+  color: #fff;
+  border: 2px solid white;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+
+/* Our Missions */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 300px;
+  border: 2px solid #f2f2f291;
+  box-shadow: 2px 2px 2px rgba(188, 188, 188, 0.25);
+  border-radius: 4px;
+  margin: 40px 20px;
+}
+
+.top {
+  height: 80%;
+}
+.card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.bottom {
+  margin: 20px;
+}
+
+h2 {
+  margin-block: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 16px;
+  padding: 80px;
+  margin-top: 40px;
+  background-color: #0a0a0a;
+}
